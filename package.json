@@ -21,13 +21,22 @@
     "format": "npm-run-all eslint:fix prettier:fix --continue-on-error",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
-    "test:ci": "vitest run"
+    "test:ci": "vitest run",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^8.0.0-alpha.7",
+    "@storybook/addon-interactions": "^8.0.0-alpha.7",
+    "@storybook/addon-links": "^8.0.0-alpha.7",
+    "@storybook/blocks": "^8.0.0-alpha.7",
+    "@storybook/react": "^8.0.0-alpha.7",
+    "@storybook/react-vite": "^8.0.0-alpha.7",
+    "@storybook/test": "^8.0.0-alpha.7",
     "@testing-library/jest-dom": "^6.2.0",
     "@testing-library/react": "^14.1.2",
     "@types/node": "^20.10.6",
@@ -51,6 +60,7 @@
     "jsdom": "^23.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.1.1",
+    "storybook": "^8.0.0-alpha.7",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vitest": "^1.1.3"
