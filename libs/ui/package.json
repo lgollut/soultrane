@@ -1,0 +1,21 @@
+{
+  "name": "@soultrane/ui",
+  "version": "0.0.1",
+  "type": "module",
+  "types": "./index.d.ts",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./styles": {
+      "import": "./styles/index.js"
+    },
+    "./bare": {
+      "import": "./bare/index.js"
+    },
+    "./styled": {
+      "import": "./styled/index.js"
+    }
+  }
+}

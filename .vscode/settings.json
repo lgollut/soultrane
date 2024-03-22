@@ -1,0 +1,11 @@
+{
+  "vitest.commandLine": "npx nx run-many -t test",
+  "vitest.enable": true,
+  "vitest.exclude": [
+    "**/*-e2e/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/cypress/**",
+    "**/.{idea,git,cache,output,temp}/**"
+  ]
+}
